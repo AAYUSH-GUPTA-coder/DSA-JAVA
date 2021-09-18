@@ -1,0 +1,25 @@
+package com.aayush;
+//Addition of two numbers a Twist
+//        1. Using a method, pass two variables and find the sum of two numbers.
+//
+//        Test case:
+//
+//        Number 1 – 20
+//
+//        Number 2 – 20.38
+//
+//        Sum = 40.38
+
+import java.util.Scanner;
+
+//        There were a total of 4 test cases. Once you compile 3 of them will be shown to you and 1 will be a hidden one.
+//        You have to display error message if numbers are not numeric.
+public class addition {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Float num1 = input.nextFloat();
+        Float num2 = input.nextFloat();
+        Float sum = num1 + num2;
+        System.out.printf("%.2f",sum);
+    }
+}
